@@ -25,3 +25,4 @@ let myDog = new Dog("Rex");
 myDog.shout();   // => shout: Go Go Go !!!
 myDog.sayType(); // => type: Dog
 myDog.sayName(); // => name: Rex
+console.log(myDog.__proto__);
